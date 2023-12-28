@@ -1,7 +1,7 @@
 ﻿using Strategy;
 using Cards;
 
-namespace ColiseumFight
+namespace ColosseumFight
 {
     public class Simulation
     {
