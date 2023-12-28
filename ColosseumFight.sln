@@ -10,7 +10,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColosseumFight", "Colosseum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{881372E3-4217-45C9-9AC1-0133611925A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{3E9B5228-B121-4358-BAF1-BF279AFC99AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cards", "Cards\Cards.csproj", "{3E9B5228-B121-4358-BAF1-BF279AFC99AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B942638A-4A45-4FA1-B64E-6747C56F50AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{3E9B5228-B121-4358-BAF1-BF279AFC99AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9B5228-B121-4358-BAF1-BF279AFC99AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9B5228-B121-4358-BAF1-BF279AFC99AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B942638A-4A45-4FA1-B64E-6747C56F50AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B942638A-4A45-4FA1-B64E-6747C56F50AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B942638A-4A45-4FA1-B64E-6747C56F50AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B942638A-4A45-4FA1-B64E-6747C56F50AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

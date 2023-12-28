@@ -2,7 +2,7 @@
 
 namespace ColosseumFight
 {
-    public interface IDeckShufller
+    public interface IDeckShuffler
     {
         public void Shuffle(List<Card> cards);
     }

@@ -18,7 +18,7 @@ namespace ColosseumFight
                 {
                     services.AddHostedService<ColosseumExperimentWorker>();
                     services.AddScoped<ColosseumSandbox>();
-                    services.AddScoped<IDeckShufller, DeckShufller>();
+                    services.AddScoped<IDeckShuffler, DeckShuffler>();
                     services.AddSingleton(new Player("Elon Musk", new FirstCardStrategy()));
                     services.AddSingleton(new Player("Mark Zuckerberg", new FirstCardStrategy()));
                 });

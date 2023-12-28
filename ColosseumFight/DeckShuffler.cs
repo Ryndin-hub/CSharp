@@ -2,7 +2,7 @@
 
 namespace ColosseumFight
 {
-    public class DeckShufller : IDeckShufller
+    public class DeckShuffler : IDeckShuffler
     {
         private static Random rng = new Random();
 

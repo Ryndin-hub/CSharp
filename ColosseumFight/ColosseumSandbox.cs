@@ -6,11 +6,11 @@ namespace ColosseumFight
     {
         private Player FirstPlayer;
         private Player SecondPlayer;
-        private IDeckShufller DeckShufller;
+        private IDeckShuffler DeckShufller;
         private Deck Deck;
 
         public ColosseumSandbox(
-            IDeckShufller deckShufller,
+            IDeckShuffler deckShufller,
             IEnumerable<Player> players)
         {
             FirstPlayer = players.ElementAt(0);
@@ -22,6 +22,13 @@ namespace ColosseumFight
         {
             Deck = new Deck();
             DeckShufller.Shuffle(Deck.Cards);
+
+            return Simulate(Deck);
+        }
+
+        public bool Simulate(Deck deck)
+        {
+            Deck = deck;
 
             List<Card> deckFirstHalf = Deck.Cards.Take(Deck.Cards.Count / 2).ToList();
             List<Card> deckSecondHalf = Deck.Cards.Skip(Deck.Cards.Count / 2).ToList();
